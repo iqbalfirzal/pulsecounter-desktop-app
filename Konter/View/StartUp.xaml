@@ -1,0 +1,71 @@
+﻿<Window x:Class="Konter.StartUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Konter"
+        mc:Ignorable="d"
+        Icon="../Images/icon.png"
+        Title="Aplikasi Sistem Infromasi Konter Pulsa" Height="600" Width="400" WindowState="Normal" FontFamily="Segoe UI Emoji" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <!--animasi-->
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2" FillBehavior="HoldEnd"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Border BorderBrush="Gainsboro" BorderThickness="10" Background="White">
+        <Border.Effect>
+            <DropShadowEffect ShadowDepth="2"/>
+        </Border.Effect>
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="../Images/bg.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="280"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="270"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="1" Grid.Column="1" BorderBrush="#FF9B9B9B" BorderThickness="2" Background="White" CornerRadius="10" Opacity="0.8">
+                <StackPanel Grid.Row="1" Grid.Column="1">
+                    <Label x:Name="lblJudulStart" Content="LOGIN SEBAGAI" HorizontalAlignment="Center" Foreground="Black" FontSize="15" FontWeight="Bold"></Label>
+                    <Canvas Height="230" Width="250" Background="#FFDEDEDE">
+                        <StackPanel HorizontalAlignment="Center" Width="250">
+                            <Label x:Name="lblAdmin" Content="ADMIN" HorizontalAlignment="Center" Foreground="Black" FontSize="12"></Label>
+                            <Button x:Name="btnLoginAdmin" Height="80" Margin="10,0" Click="btnLoginAdmin_Clicked">
+                                <Image Source="..\Images\manager.png"/>
+                            </Button>
+                            <Label x:Name="lblUser" Content="USER" HorizontalAlignment="Center" Foreground="Black" FontSize="12"></Label>
+                            <Button x:Name="btnLoginUser" Height="80" Margin="10,0" Click="btnLoginUser_Clicked">
+                                <Image Source="..\Images\employee.png"/>
+                            </Button>
+                        </StackPanel>
+                    </Canvas>
+                </StackPanel>
+            </Border>
+            <Image x:Name="imgStart" Source="..\Images\logo.png" Grid.Column="1" HorizontalAlignment="Left" Height="126" Margin="10,10,0,0" VerticalAlignment="Top" Width="250"/>
+            <Image x:Name="imgExit" Source="..\images\x.png" Grid.Column="1" HorizontalAlignment="Left" Height="75" Margin="92,29,0,0" Grid.Row="2" VerticalAlignment="Top" Width="86"/>
+            <Grid>
+                <Button Margin="150,457,-170,-384" Click="BtnExit_Click" Height="Auto">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Ellipse Fill="Transparent"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

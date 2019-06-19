@@ -1,0 +1,100 @@
+C:\Users\Acer\Downloads\FinalProject\Konter\bin\Debug\WpfApp1079.exe.config
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\WpfApp1079.exe
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\WpfApp1079.pdb
+C:\Users\Acer\Downloads\FinalProject\Konter\bin\Debug\WpfApp1079.exe
+C:\Users\Acer\Downloads\FinalProject\Konter\bin\Debug\WpfApp1079.pdb
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\Konter.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\App.g.cs
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\WpfApp1079_MarkupCompile.cache
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\WpfApp1079_MarkupCompile.lref
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\WpfApp1079.g.resources
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\WpfApp1079.Properties.Resources.resources
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\Konter.csproj.GenerateResource.Cache
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\start.g.cs
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\start.baml
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\LoginPage.g.cs
+C:\Users\Acer\Downloads\FinalProject\Konter\obj\Debug\LoginPage.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignColors.dll
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignColors.pdb
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\StartUp.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageUser.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageAdmin.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\TransactionRecord.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\App.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\App.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\StartUp.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageUser.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageAdmin.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\TransactionRecord.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.csproj.GenerateResource.Cache
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrKaryawan.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrLaporan.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\AdminPage.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrKaryawan.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrLaporan.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\AdminPage.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrPulsa.g.cs
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrPulsa.baml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.csprojResolveAssemblyReference.cache
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.exe.config
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.exe
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.pdb
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter_MarkupCompile.cache
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter_MarkupCompile.lref
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.g.resources
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.Properties.Resources.resources
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.exe
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.pdb
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\Konter.exe.config
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\Konter.exe
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\Konter.pdb
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\MaterialDesignColors.dll
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\MaterialDesignThemes.Wpf.dll
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\MaterialDesignColors.pdb
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\MaterialDesignThemes.Wpf.pdb
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Release\MaterialDesignThemes.Wpf.xml
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.exe.manifest
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.application
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.exe.manifest
+D:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.application
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.exe.config
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.exe
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.pdb
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.csprojResolveAssemblyReference.cache
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\AdminPage.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrPulsa.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrKaryawan.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrLaporan.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\StartUp.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageUser.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageAdmin.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\TransactionRecord.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\App.g.cs
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter_MarkupCompile.cache
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter_MarkupCompile.lref
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\App.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\AdminPage.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrPulsa.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrKaryawan.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\MngrLaporan.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\StartUp.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageUser.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\LoginPageAdmin.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\View\TransactionRecord.baml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.g.resources
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.Properties.Resources.resources
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.csproj.GenerateResource.Cache
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.exe.manifest
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.application
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.exe
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\Konter.pdb
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignColors.dll
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignColors.pdb
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.exe.manifest
+E:\1- KULIAH -1\Pemrograman Lanjut\FinalProject\Konter\obj\Debug\Konter.application

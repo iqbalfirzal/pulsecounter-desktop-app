@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="Konter.MngrPulsa"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Konter"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Height="536" Width="auto">
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation
+              Storyboard.TargetProperty="Opacity"
+              From="0.0" To="1.0" Duration="0:0:1"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </UserControl.Triggers>
+    <Grid Height="550" Width="770">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtGetKdPulsa" Text="{Binding ElementName=dtgPulsa, Path=SelectedItem.kd_Pulsa}" Height="20" Width="100" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False" Margin="275,220,0,33" />
+        <StackPanel HorizontalAlignment="Left" Width="770" Grid.ColumnSpan="2" Grid.RowSpan="2" Height="550" VerticalAlignment="Top">
+            <StackPanel Height="44" Margin="10,0" Background="LightGray">
+                <Label x:Name="lblJudul" Content="DATA PULSA" Margin="0,10,380,10" FontSize="16" Foreground="Black" FontWeight="Bold" Height="30"/>
+            </StackPanel>
+            <StackPanel Height="198" Margin="10,0">
+                <DataGrid x:Name="dtgPulsa" x:Uid="dtgPulsa" ItemsSource="{Binding}" AutoGenerateColumns="False" SelectedIndex="0" Height="200" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path = kd_Pulsa}" Header="Kode Pulsa"/>
+                        <DataGridTextColumn Binding="{Binding Path = nominal}" Header="Nominal"/>
+                        <DataGridTextColumn Binding="{Binding Path = Harga}" Header="Harga"/>
+                        <DataGridTextColumn Binding="{Binding Path = nama_Jenis}" Header="Jenis Pulsa"/>
+                        <DataGridTextColumn Binding="{Binding Path = nama_Provider}" Header="Provider"/>
+                        <DataGridTextColumn Binding="{Binding Path = keterangan}" Header="Keterangan"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+            <Grid Height="40" Background="LightGray" Margin="10,0">
+                <Button x:Name="btnTambahPulsa" Width="32" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" ToolTip="Tambahkan Data Pulsa" Padding="0" Foreground="Gray" Margin="708,0,10,0" Click="btnTambahPulsa_Click">
+                    <materialDesign:PackIcon Kind="PlusCircleOutline" Height="30" Width="32"/>
+                </Button>
+                <Button x:Name="btnUbahPulsa" Width="32" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" ToolTip="Ubah Data Pulsa" Padding="0" Foreground="Gray" Margin="620,0,10,0" Click="btnUbahPulsa_Click">
+                    <materialDesign:PackIcon Kind="InformationOutline" Height="30" Width="32"/>
+                </Button>
+                <Label Background="LightGray" x:Name="lblJudul2" Content="KELOLA DATA PULSA" Margin="0,0,115,0" FontSize="16" Foreground="Black" FontWeight="Bold"/>
+            </Grid>
+            <StackPanel Height="182" Margin="10,0" Background="White">
+                <Canvas Height="182" Background="Gainsboro">
+                    <TextBlock Height="25" HorizontalAlignment="Left" x:Name="lblKodePulsa" Text="Kode Pulsa" VerticalAlignment="Top" Width="121" Canvas.Left="9" Canvas.Top="19" />
+                    <TextBlock Height="24" HorizontalAlignment="Left" x:Name="lblNominal" Text="Nominal" VerticalAlignment="Top" Width="121" Canvas.Left="9" Canvas.Top="52" />
+                    <TextBlock Height="24" HorizontalAlignment="Left" x:Name="lblHarga" Text="Harga" VerticalAlignment="Top" Width="121" Canvas.Left="9" Canvas.Top="84" />
+                    <TextBlock Height="24" HorizontalAlignment="Left" x:Name="lblKeterangan" Text="Keterangan" VerticalAlignment="Top" Width="121" Canvas.Left="9" Canvas.Top="113"  />
+                    <TextBlock Height="25" HorizontalAlignment="Left" x:Name="lblJenisPulsa" Text="Jenis Pulsa" VerticalAlignment="Top" Width="121" Canvas.Left="382" Canvas.Top="19" />
+                    <TextBlock Height="24" HorizontalAlignment="Left" x:Name="lblProvider" Text="Provider" VerticalAlignment="Top" Width="121" Canvas.Left="382" Canvas.Top="52" />
+                    <TextBox Height="28" HorizontalAlignment="Left" x:Name="txtKodePulsa" Text="{Binding ElementName=dtgPulsa, Path=SelectedItem.kd_Pulsa}" VerticalAlignment="Top" Width="190" Canvas.Left="137" Canvas.Top="6" />
+                    <TextBox Height="28" HorizontalAlignment="Left" x:Name="txtNominal" Text="{Binding ElementName=dtgPulsa, Path=SelectedItem.nominal}" VerticalAlignment="Top" Width="190" Canvas.Left="137" Canvas.Top="39" />
+                    <TextBox Height="28" HorizontalAlignment="Left" x:Name="txtHarga" Text="{Binding ElementName=dtgPulsa, Path=SelectedItem.Harga}" VerticalAlignment="Top" Width="190" Canvas.Left="137" Canvas.Top="71" />
+                    <TextBox Height="28" HorizontalAlignment="Left" x:Name="txtKeterangan" Text="{Binding ElementName=dtgPulsa, Path=SelectedItem.keterangan}" VerticalAlignment="Top" Width="190" Canvas.Left="137" Canvas.Top="100" />
+                    <ComboBox Height="28" HorizontalAlignment="Left" x:Name="cmbJenisPulsa" Text="- Pilih Jenis Pulsa -" ItemsSource="{Binding}" VerticalAlignment="Top" Width="201" Canvas.Left="510" Canvas.Top="6" />
+                    <ComboBox Height="28" HorizontalAlignment="Left" x:Name="cmbProvider" Text="- Pilih Provider -" ItemsSource="{Binding}" VerticalAlignment="Top" Width="201" Canvas.Left="510" Canvas.Top="39" />
+                </Canvas>
+            </StackPanel>
+            <Grid Height="65" Margin="10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="90*"/>
+                    <ColumnDefinition Width="108*"/>
+                    <ColumnDefinition Width="59*"/>
+                    <ColumnDefinition Width="59*"/>
+                    <ColumnDefinition Width="59*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Height="15" HorizontalAlignment="Left" x:Name ="lblIntruction" VerticalAlignment="Top" Width="170" Foreground="#FF23D88E" Margin="179,21,0,0" Grid.ColumnSpan="2" >
+                    <TextBlock.RenderTransform>
+                        <ScaleTransform ScaleX="1.2" ScaleY="1.2" />
+                    </TextBlock.RenderTransform>
+                    Pilih data pada tabel untuk diubah
+                </TextBlock>
+                <Button x:Name="btnSimpan" Content="Simpan" Grid.Column="4" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="108" Height="40" Click="btnTambah_Click"/>
+                <Button x:Name="btnCancel" Content="Batal" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="98" Height="40" Click="btnCancel_Click" Background="#FFF37721" BorderBrush="#FFF37721"/>
+                <Button x:Name="btnDelete" Content="Hapus Data Terpilih" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="159" Height="40" Background="#FFD83323" BorderBrush="#FFD83323" Grid.Column="0" Click="btnDelete_Click"/>
+                <Button x:Name="btnUpdate" Content="Ubah" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="98" Height="40" Background="#FF23D88E" BorderBrush="#FF23D88E" Grid.Column="3" Click="btnUpdate_Click"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

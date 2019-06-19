@@ -1,0 +1,14 @@
+D:\17.11.1079\WpfApp1079\WpfApp1079\bin\Debug\WpfApp1079.exe.config
+D:\17.11.1079\WpfApp1079\WpfApp1079\bin\Debug\WpfApp1079.exe
+D:\17.11.1079\WpfApp1079\WpfApp1079\bin\Debug\WpfApp1079.pdb
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079.csprojResolveAssemblyReference.cache
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\MainWindow.g.cs
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\App.g.cs
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079_MarkupCompile.cache
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079_MarkupCompile.lref
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\MainWindow.baml
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079.g.resources
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079.Properties.Resources.resources
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079.csproj.GenerateResource.Cache
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079.exe
+D:\17.11.1079\WpfApp1079\WpfApp1079\obj\Debug\WpfApp1079.pdb
